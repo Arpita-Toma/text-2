@@ -1,0 +1,12 @@
+@media only screen and (max-width:1024) {
+.join-club .row{
+    padding: 0 50px !important;
+}
+}  
+
+
+@media only screen and (max-width:992px) {
+    .main-nav-dropdown.show{
+        display:block;
+    }
+}

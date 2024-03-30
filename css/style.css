@@ -1,0 +1,205 @@
+/* default */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.primary-title{
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lilita One", sans-serif;
+}
+
+.sub-title{
+    font-size: 16px;
+    color: #fff;
+    letter-spacing:1px ;
+    word-spacing:2px ;
+    
+}
+a{
+    text-align: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* top-bar */
+.top-bar{
+    background-color: green;
+}
+.top-bar p {
+    color:white;
+}
+
+.top-bar a{
+    color: gray;
+    transition:0.3;
+}
+.top-bar a:hover{
+    color: aliceblue;
+    font-weight:600 ;
+
+}
+
+/* top header */
+
+
+.top-header   li a{
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+
+.top-header ul li a:hover{
+    color: green;
+    font-weight: 600;
+}
+
+/* main nav */
+
+
+.main-nav ul li{
+    border-right:1px solid;
+
+}
+ .dropdown{
+    position: unset !important;
+ }
+
+.dropdown-menu.show{
+    display: flex;
+    justify-content: center;
+}
+.nav-item a{
+    color: gray !important;
+}
+
+/* banner */
+.banner{
+    background-image:url("../image/Banner\ \(3\).jpeg") ;
+    background-position: center;
+    margin-top: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 50px;
+}
+
+
+/* feature blog */
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: unset !important;
+}
+/* brands */
+.page-title h3{
+ font-size: 22px;
+ font-family: "Lilita One", sans-serif;
+color: gray;
+}
+.brand-images ul li img{
+    filter: grayscale(1) contrast(0.3);
+}
+
+.products.card-text{
+    font-family: "Lilita One, sans-serif";
+    font-size: 20px;
+    color: gray;
+    
+}
+.products span{
+    font-size: 18px;
+    color: gray;
+}
+
+/* products */
+.card-title{
+    font-size: 22px;
+    font-family: "Lilita One, sans-serif";
+    font-weight: 700;
+    font-style: normal;
+}
+.card-text{
+    font-size: 21px;
+    font-family:"Lilita One, sans-serif" ;
+    font-weight: 600;
+    font-style: normal; 
+}
+.card-body{
+    color: gray;
+}
+/* footer blog */
+.final-blog{
+    top: 0 !important;
+}
+/* join the club */
+.join-club{
+    background-image:url('../image/view\ \(1\).jpeg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.join-club h2{
+    font-family:"Lilita One, sans-serif";
+    color: #fff;
+    font-size: 36px;
+}
+.join-club .row{
+    /* padding: 0 150px; */
+}
+
+/* footer */
+.crossing{
+    font-size: 20px;
+    font-weight:600 ;
+}
+footer{
+    background-color: rgb(248, 242, 242);
+}
+ footer h3{
+    color: gray;
+    font-size: 20px;
+    font-family:"Lilita One, sans-serif" ;
+
+}
+footer ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+.payment h4{
+    color: gray;
+    font-family:"Lilita One, sans-serif";
+    font-size: 26px;
+}
+.payment p{
+    color: gray;
+    font-family:"Lilita One, sans-serif";
+    font-size: 14px;
+}
+/* copyright */
+.copyright{
+    background-color: green;
+}
+.copyright ul li a{
+    color: #fff;
+}
+.copyright span{
+    color: rgb(251, 235, 235);
+}
+
+.copyright span a{
+    color: rgb(251, 235, 235);
+}
+
+.title-animation{
+    animation: left-right 5s infinite;
+}
+
+.card-animation{
+    transform: rotatex(45deg);
+}
